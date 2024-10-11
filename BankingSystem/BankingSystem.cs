@@ -1,6 +1,6 @@
 ﻿namespace BankingSystem;
 
-public class BankingSystem
+public class BankingSys
 {
     private List<Customer> customers;
     private List<Account> accounts;
@@ -9,7 +9,7 @@ public class BankingSystem
     private NotificationService notificationService;
     public AuthenticationService AuthenticationService;
 
-    public BankingSystem()
+    public BankingSys()
     {
         customers = new List<Customer>();
         accounts = new List<Account>();
